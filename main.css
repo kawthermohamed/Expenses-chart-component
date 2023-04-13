@@ -1,0 +1,106 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --Soft-red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+
+  --Dark-brown: hsl(25, 47%, 15%);
+  --Medium-brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very-pale-orange: hsl(33, 100%, 98%);
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--Cream);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.expenses-app {
+  width: 400px;
+}
+.balance-box {
+  background-color: var(--Soft-red);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  color: var(--Very-pale-orange);
+}
+.balance > span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.doll {
+  font-weight: bold;
+  font-size: 25px;
+}
+.icon img {
+  width: 45px;
+}
+
+.spending {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--Very-pale-orange);
+  margin-top: 20px;
+  font-weight: bold;
+}
+.spending h3 {
+  margin: 0 0 40px 0;
+  color: var(--Dark-brown);
+}
+.the-week {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--Cream);
+}
+
+.day-chart {
+  width: 35px;
+  background-color: var(--Soft-red);
+  border-radius: 3px;
+}
+.day span {
+  font-size: 12px;
+  color: var(--Medium-brown);
+}
+
+.total-exp {
+  padding: 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total > span {
+  font-size: 12px;
+  color: var(--Medium-brown);
+}
+.total .tot-amount {
+  font-size: 30px;
+  color: var(--Dark-brown);
+}
+.margin span {
+  display: block;
+  text-align: right;
+}
+.margin span:first-child {
+  color: var(--Dark-brown);
+  font-size: 12px;
+}
+.margin span:last-child {
+  font-size: 12px;
+  color: var(--Medium-brown);
+}
