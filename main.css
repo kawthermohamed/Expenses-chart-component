@@ -104,3 +104,14 @@ body {
   font-size: 12px;
   color: var(--Medium-brown);
 }
+.day-Amount {
+  font-size: 10px;
+  background-color: var(--Dark-brown);
+  color: var(--Very-pale-orange);
+  margin-bottom: 2px;
+  opacity: 0;
+}
+
+.day:hover .day-Amount {
+  opacity: 1;
+}
