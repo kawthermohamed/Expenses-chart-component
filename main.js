@@ -48,7 +48,7 @@ function colorHighest(arr) {
   let neededColor = getComputedStyle(document.documentElement).getPropertyValue(
     "--Cyan"
   );
-  arr[neededIndex].children[0].style.setProperty(
+  arr[neededIndex].children[1].style.setProperty(
     "background-color",
     neededColor,
     "important"
