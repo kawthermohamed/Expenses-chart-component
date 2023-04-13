@@ -19,12 +19,18 @@ function elementToDom(ele) {
   let day = document.createElement("div");
   day.className = "day";
   day.dataset.amount = ele.amount;
+  let dayAmount = document.createElement("div");
+  dayAmount.className = "day-Amount";
+  dayAmount.innerHTML = ele.amount;
+
   let dayChart = document.createElement("div");
   dayChart.className = "day-chart";
   dayChart.style.height = ele.amount * 2 + "px";
   let dayName = document.createElement("span");
   dayName.className = "day-name";
   dayName.innerHTML = ele.day;
+  day.appendChild(dayAmount);
+
   day.appendChild(dayChart);
   day.appendChild(dayName);
   week.appendChild(day);
